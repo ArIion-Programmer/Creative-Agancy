@@ -1,0 +1,229 @@
+@import 'fonts.css';
+
+
+:root {
+    --p-b:'ProximaNovaBold';
+    --p-r:'ProximaNovaRegular';
+    
+   
+
+}
+*{
+    text-decoration: none;
+    list-style: none;
+   
+}
+
+.header{
+    background: #341b54;
+    
+}
+
+
+.navbar-brand2{
+    font-family: var(--p-b);
+     font-size: 18px;
+     color: #e3d5ff  ; 
+     text-transform: uppercase;
+     margin-top: 7px;  
+     
+}
+
+.navbar-brand2:hover{
+    text-decoration: none;
+    color: #e3d5ff  ; 
+}
+
+.header__nav-link{
+    margin-right: 26px;
+    font-size: 14px;
+    font-family: var(--p-b);
+    color: #e3d5ff;
+    text-transform: uppercase;   
+}
+
+.header__nav-link:hover{
+    color: #e3d5ff83;
+    text-decoration: none;
+    
+}
+
+.line{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #705096;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+.contact-h2{
+    color: #fefeff ;
+    font-family: var(--p-r) ;
+    font-size: 80px ;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 90px
+}
+
+.contact__title{
+    color: #ffffff;
+    font-size: 12px;
+    font-family: var(--p-r);
+    text-transform: uppercase;
+    
+   
+}
+.block-center{
+  padding-bottom: 10px;  
+}
+
+.contact__title:hover{
+    color: #928f8f; 
+    text-decoration: none;
+}
+
+.contact__span-tilta{
+    margin-left: 6px;
+    color: white;
+    text-transform: uppercase;
+}
+
+/***********************************/
+/***********project start**********/
+
+
+.project{
+    
+   background: white;
+   
+ }
+ 
+ .project__inmput, .project__textarea{
+     width: 100%;
+     font-size: 15px;
+     color: #787878;
+     padding: 18px 15px;
+     border: none;
+     margin-top: 30px;
+     background: #1b0c30;
+ }
+ 
+ .project__button{
+     font-size: 12px;
+     color: white;
+     text-transform: uppercase;
+     padding: 14px 20px;
+     background: #f33c7a;
+     border: none;
+     transition: 0.5s;
+     margin-top: 30px;
+     font-family: var(--p-b);
+     margin-bottom: 125px;
+ }
+ 
+ .project__button:hover{
+     background: #8b2c4c;
+ }
+ 
+ 
+ .projqct__title{
+     color: #000000;
+     font-family: var(--p-b);
+     text-transform: uppercase;
+     font-size: 38px;
+     padding-top: 100px;
+     padding-bottom: 55px;
+    
+ }
+ 
+ .project__p{
+     color: #000000;
+     font-family: var(--p-r);
+     font-size: 16px;
+  
+ }
+ 
+ 
+ /**********************************/
+/**********************************/
+
+
+
+.block__ul{
+    display: flex;
+}
+
+.block__ul-a{
+  color: #e3d5ff  ;
+  margin-right: 25px;
+  font-family: var(--p-r)  ;
+  font-size:  16px ;   
+  text-decoration: none;
+}
+
+.block__ul-a:hover{
+    color: #a7a0b6 ; 
+    text-decoration: none;
+    
+}
+
+.block__footer-title{
+    color: #e3d5ff ;
+    font-family: var(--p-b);
+    font-size: 16px;
+}
+
+.block__footer-span{
+    font-size: 16px;
+    font-family: var(--p-b);
+    color: #ff00f6;
+    text-transform: uppercase;
+}
+
+.icon{
+    margin-right: 22px;
+    color: #e3d5ff;
+}
+
+.icon1{
+  
+   margin-right: 22px;
+   color: #e3d5ff;
+}
+
+.icon:hover{
+    color: #9c96a8;
+}
+.icon1:hover{
+    color: #9c96a8;
+}
+
+
+.footer{
+    background: #1b0c30;
+    padding: 70px 0px 70px 0px ;
+}
+
+
+.block-center{
+   
+    margin: auto;
+    
+}
+
+@media(max-width:1024px){
+    .block__ul-a { 
+        font-size: 11px;  
+    }
+    
+    .block__footer-title {
+  font-size: 14px;
+    }
+    
+   }
+
+
+
